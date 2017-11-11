@@ -339,7 +339,7 @@ hr {
 .intro .slogan h2 {
 	color: #FFF;
 	text-shadow: none;
-	font-size: 60px;
+	font-size: 30px;
 	line-height: 60px;
 	font-weight: 700;
 	font-family: Montserrat, sans-serif;
@@ -618,7 +618,9 @@ Parallax
 /* ===========================
 --- Elements
 ============================ */
-
+.col-md-3{
+	margin-left:100px;
+}
 .btn {
 	border-radius: 0;
     text-transform: uppercase;
@@ -634,6 +636,7 @@ Parallax
     width: 70px;
     height: 70px;
     margin-top: 15px;
+	margin-bottom: 15px;
     padding: 7px 16px;
     border: 2px solid #fff;
     border-radius: 50%;
